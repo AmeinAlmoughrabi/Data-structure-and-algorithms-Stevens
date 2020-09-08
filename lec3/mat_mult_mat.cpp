@@ -50,7 +50,7 @@ int main(int args, char **argv)
     //
 
     double time = wtime();
-    mat_mul_mat (A, B, res, dim);
+    mat_mult_mat (A, B, res, dim);
     
     time = wtime () - time;
 
