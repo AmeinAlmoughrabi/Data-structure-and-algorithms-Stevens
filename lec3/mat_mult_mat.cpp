@@ -35,8 +35,11 @@ int main(int args, char **argv)
 
     assert(args == 2);
 
-    int dim = atoi(int argv[1]);
+    int dim = atoi(argv[1]);
 
+	int **A;
+	int **B;
+	int **res;
     //Alloc the two dimensional arrays A, B and res;
     //
     //
