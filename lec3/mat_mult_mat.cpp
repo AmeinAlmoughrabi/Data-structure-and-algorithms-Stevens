@@ -54,7 +54,7 @@ int main(int args, char **argv)
     
     time = wtime () - time;
 
-    std::cout<<"It takes " << time <<" seconds to finish the "<<dim<<" by "<<dim<< "matrix multiplication\n";
+    std::cout<<"It takes " << time <<" seconds to finish the "<<dim<<" by "<<dim<< " matrix multiplication\n";
 
     return 1;
 
