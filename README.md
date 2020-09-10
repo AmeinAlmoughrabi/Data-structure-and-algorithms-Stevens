@@ -7,9 +7,11 @@ This course focuses on understanding and implementing a variety of data structur
 Outline 
 ---
 
-> **Lecture 2**: C++ basics
+> **Lecture 2**: C++ basics.
 
 > **Lecture 3**: Implementing matrix matrix multiplication to help learn C++ basics.
+
+> **Lecture 4**: Pointer and address.
 
 ---
 Contact
