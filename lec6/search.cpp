@@ -28,6 +28,12 @@ void binary(int *array, int size, int val){
     int begin = 0;
     int end = size;
 
+    if (array[begin] == val) 
+        std::cout<<val<<" is at index "<<begin<<"\n";
+
+    if (array[end] == val) 
+        std::cout<<val<<" is at index "<<end<<"\n";
+    
     int is_found=0;
     double time=wtime();
     while(begin < end - 1)
