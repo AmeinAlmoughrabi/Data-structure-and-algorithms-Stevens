@@ -15,6 +15,8 @@ Outline
 
 > **Lecture 5**: Naive version of linked list where the inserted record is always at the second from the header.
 
+> **Lecture 6**: Search.
+
 ---
 Contact
 ---
