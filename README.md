@@ -15,7 +15,9 @@ Outline
 
 > **Lecture 5**: Naive version of linked list where the inserted record is always at the second from the header.
 
-> **Lecture 6**: Search.
+> **Lecture 6**: Search (Linear and binary search).
+
+> **Lecture 7**: Based upon lecture 6 + Making the array random ordered, adding qsort for binary search, adding functionalities of multiple queries.
 
 ---
 Contact
