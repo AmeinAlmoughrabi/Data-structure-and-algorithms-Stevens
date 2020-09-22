@@ -35,6 +35,10 @@ void linear(int *array, int size, int *tries, int num_of_searches){
 void binary(int *array, int size, int *tries, int num_of_searches){
     
     double time=wtime();
+   
+   //For qsort, please refer to https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm for details
+   //Link might expire.
+   //Sept 22, 2020
     qsort(array, size, sizeof(int), cmpfunc);
     
     for(int j = 0; j < num_of_searches; j ++)
