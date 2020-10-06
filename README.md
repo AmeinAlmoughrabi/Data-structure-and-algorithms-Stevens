@@ -19,6 +19,12 @@ Outline
 
 > **Lecture 7**: Based upon lecture 6 + Making the array random ordered, adding qsort for binary search, adding functionalities of multiple queries.
 
+> **Lecture 8**: Time complexity understanding via testing algorithms with complexity of O(logN), O(N), O(NlogN) and O(N^2). These algorithms are binary search, linear search, QuickSort and matrix vector multiplication.
+
+> **Lecture 9**: Tree and binary search tree.
+
+> **Lecture 10**: Implementation of building a binary tree.
+
 ---
 Contact
 ---
