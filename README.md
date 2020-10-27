@@ -25,6 +25,12 @@ Outline
 
 > **Lecture 10**: Implementation of building a binary tree.
 
+> **Lecture 11**: 
+
+> **Lecture 12**: Binary search tree (mainly insertion, and pre/in/post order traversal).
+
+> **Lecture 13**: Deletion of a vertex in binary search tree.
+
 ---
 Contact
 ---
