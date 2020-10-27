@@ -1,11 +1,11 @@
 This lecture aims to implement three types of deletion algorithms.
 
 > Given we have the following BST T
->	      50 
+>       50 
 >     /    \  
->		30     70 
->		/ \     / \ 
->	 20 40   60 80 
+>    30     70 
+>   / \     / \ 
+>  20 40   60 80 
 
 Please perform: 
 - Delete vertex 20 from the tree T. Return the updated tree T'
