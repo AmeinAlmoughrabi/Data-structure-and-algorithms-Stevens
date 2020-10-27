@@ -5,10 +5,13 @@ This lecture aims to implement three types of deletion algorithms.
 >     /    \  
 >    30     70 
 >   / \     / \ 
->  20 40   60 80 
+>  -1 40   60 80 
+> / \ / \  / \ / \
+> -1.......
 
 Please perform: 
-- Delete vertex 20 from the tree T. Return the updated tree T'
+- Delete vertex 40 from the tree T. Return the updated tree T'
 - Delete 30 from T' which will return an updated tree T''
 - Delete 50 from T''.
 
+Note, -1 means null child.
