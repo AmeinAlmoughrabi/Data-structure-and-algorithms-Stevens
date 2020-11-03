@@ -1,11 +1,14 @@
 #include<stdio.h>
 #include<limits.h>
 #include <iostream>
+#include <assert.h>
 
 /*Declaring heap globally so that we do not need to pass it as an argument every time*/
 /* Heap implemented  here is Min Heap */
- 
-int heap[1000000], heapSize;
+#define MAX_SIZE (1<<20) 
+
+
+int heap[MAX_SIZE], heapSize;
 /*Initialize Heap*/
 void Init() {
     heapSize = 0;
@@ -15,8 +18,9 @@ void Init() {
 /*Insert an element into the heap */
 void Insert(int element) {
     heapSize++;
-    
-    std::cout<<"Inserting "<<element<<" now\n";
+    assert(heapSize < MAX_SIZE);
+
+//    std::cout<<"Inserting "<<element<<" now\n";
     heap[heapSize] = element; /*Insert in the last place*/
     /*Adjust its position*/
     int now = heapSize;
@@ -26,7 +30,7 @@ void Insert(int element) {
     }
     heap[now] = element;
     
-    std::cout<<heap[now]<<" "<<heapSize<<" "<<now<<" "<<"Array layout: ";
+    std::cout<<"Array layout: ";
     for(int i = 1; i <= heapSize; i ++)
         std::cout<<heap[i]<<" ";
     std::cout<<"\n";
