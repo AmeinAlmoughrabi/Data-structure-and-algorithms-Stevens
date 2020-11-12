@@ -31,6 +31,10 @@ Outline
 
 > **Lecture 13**: Deletion of a vertex in binary search tree.
 
+> **Lecture 14**: Heap data structure (with deletmin and insert).
+
+> **Lecture 15**: Sorting (quadratic sort, merge sort and radix sort).
+
 ---
 Contact
 ---
