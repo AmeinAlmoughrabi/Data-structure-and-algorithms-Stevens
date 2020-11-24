@@ -42,7 +42,9 @@ int search_element(int *hash_table, int size, int element, int &index){
 
 
 int insert(int *hash_table, int &count, int size, int element){
-   
+    
+    assert(element != INIT);
+
     std::cout<<"Insert "<<element<<" to hash table\n";
     assert(count <= size);
     count ++;
