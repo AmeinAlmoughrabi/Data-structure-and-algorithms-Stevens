@@ -37,7 +37,7 @@ Outline
 
 > **Lecture 16**: Linear probing based hash table implementation.
 
-> **Lecture 17**: Graph algorithm: BFS on a graph in matrix format.
+> **Lecture 17**: Graph algorithm: BFS on a graph in matrix format; DFS on a graph in matrix format.
 
 
 ---
