@@ -35,6 +35,11 @@ Outline
 
 > **Lecture 15**: Sorting (quadratic sort, merge sort and radix sort).
 
+> **Lecture 16**: Linear probing based hash table implementation.
+
+> **Lecture 17**: Graph algorithm: BFS on a graph in matrix format.
+
+
 ---
 Contact
 ---
