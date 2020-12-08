@@ -49,6 +49,7 @@ int dfs_matrix(int **graph, int vertex_count, int edge_count, int root){
        depth[i] = -1; 
     }
     
+    //Push the root vertex into stack
     my_stack[stack_count++] = root;
     //status[root] = 1;
     depth[root] = 0;
@@ -57,23 +58,28 @@ int dfs_matrix(int **graph, int vertex_count, int edge_count, int root){
     while(stack_count != 0)
     {
     
+        //Pop out a vertex from stack
         int frontier = my_stack[stack_count-1];
 
         stack_count --;
+        
+        //If this vertex is not visited, we will visit this vertex
         if (status[frontier] == -1)
         {
             std::cout<<"working on "<<frontier<<"\n";
-            status[frontier] = 1;
+            status[frontier] = 1; //mark this vertex is visited
 
+            //For all the neighbors of this vertex, we update their parent[], depth[],
+            //And put them into the stack.
             for(int j = 0; j < vertex_count; j ++)
                 if (graph[frontier][j] == 1)
                 {
-                    my_stack[stack_count++] = j;
-                    if (parent[j] == -1) parent[j] = frontier;
+                    my_stack[stack_count++] = j; //Add the neighbor into stack
+                    if (parent[j] == -1) parent[j] = frontier;//Update their parent
                     
                     //In case j is already added by other frontiers
-                    if (depth[j] == -1) depth[j] = depth[frontier] + 1;
-                    std::cout<<"Added "<<j<<" with depth = "<<depth[j]<<"\n";
+                    if (depth[j] == -1) depth[j] = depth[frontier] + 1; //Update their depth
+                    //std::cout<<"Added "<<j<<" with depth = "<<depth[j]<<"\n";
                 }
         }
     }
